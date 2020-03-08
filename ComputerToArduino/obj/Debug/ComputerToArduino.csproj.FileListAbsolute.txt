@@ -1,0 +1,60 @@
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\bin\Debug\ComputerToArduino.exe
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\bin\Debug\ComputerToArduino.pdb
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.Form1.resources
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.Properties.Resources.resources
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.csproj.GenerateResource.Cache
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.exe
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.pdb
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\bin\Debug\ComputerToArduino.exe.manifest
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\bin\Debug\ComputerToArduino.application
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.exe.manifest
+c:\users\nick\documents\visual studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.application
+C:\Users\Nick\Documents\Visual Studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.csprojAssemblyReference.cache
+C:\Users\Nick\Documents\Visual Studio 2017\Projects\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.csproj.CoreCompileInputs.cache
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\ComputerToArduino.exe.manifest
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\ComputerToArduino.application
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\ComputerToArduino.exe
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\ComputerToArduino.pdb
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.csprojAssemblyReference.cache
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.Form1.resources
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.Properties.Resources.resources
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.csproj.GenerateResource.cache
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.exe.manifest
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.application
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.exe
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.pdb
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\dll\x86\opencv_ffmpeg400.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\dll\x64\opencv_ffmpeg400_64.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x64\concrt140.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x64\cvextern.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x64\msvcp140.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x64\opencv_ffmpeg343_64.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x64\vcruntime140.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x86\concrt140.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x86\cvextern.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x86\msvcp140.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x86\opencv_ffmpeg343.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\x86\vcruntime140.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\OpenCvSharp.Blob.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\OpenCvSharp.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\OpenCvSharp.pdb
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\OpenCvSharp.xml
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\OpenCvSharp.Blob.pdb
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\OpenCvSharp.Blob.xml
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.csproj.CopyComplete
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Controls.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Imaging.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Video.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Vision.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Math.dll
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Controls.xml
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Imaging.xml
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Video.xml
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Vision.xml
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.xml
+C:\Users\blue\Desktop\ComputerToArduino\ComputerToArduino\bin\Debug\AForge.Math.xml
