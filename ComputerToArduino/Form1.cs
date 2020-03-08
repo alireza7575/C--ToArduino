@@ -12,6 +12,7 @@ using AForge.Video;
 using System.Diagnostics;
 using System.Collections;
 using System.IO;
+using System.Threading;
 using System.Drawing.Imaging;
 
 namespace ComputerToArduino
@@ -322,10 +323,20 @@ namespace ComputerToArduino
             if (isConnected)
             {
                 port.Write(textBox6.Text+"\n" );
+                // { "speed":500,"degree":64,"step":10,"command":"LED1"}
+                port.ReadExisting();
                
-                needSnapshot = true;
                 Console.WriteLine(textBox6.Text);
-                Console.WriteLine(port.ReadExisting());
+                Console.WriteLine();
+                String s = port.ReadExisting();
+                while (s == "")
+                {
+                    s = port.ReadExisting();
+                    Console.WriteLine(s);
+                    int milliseconds = 200;
+                    Thread.Sleep(milliseconds);
+                }
+                needSnapshot = true;
 
             }
         }
@@ -352,6 +363,12 @@ namespace ComputerToArduino
         private void Form1_Load(object sender, EventArgs e)
         {
       
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            textBox6.Text = String.Concat("{ 'speed':", textBox3.Text, ", 'degree':", textBox1.Text, ", 'step':", textBox2.Text, ", 'command':", "'LED1'","}");
+
         }
     }
 }
