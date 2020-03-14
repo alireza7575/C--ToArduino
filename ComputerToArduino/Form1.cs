@@ -263,7 +263,7 @@ namespace ComputerToArduino
             string selectedPort = comboBox1.GetItemText(comboBox1.SelectedItem);
             port = new SerialPort(selectedPort, 9600, Parity.None, 8, StopBits.One);
             port.Open();
-            port.Write("#STAR\n");
+            port.WriteLine("{'command':'START'}");
             button1.Text = "Disconnect";
             enableControls();
         }
@@ -311,7 +311,7 @@ namespace ComputerToArduino
         private void disconnectFromArduino()
         {
             isConnected = false;
-            port.Write("#STOP\n");
+            port.WriteLine("{'command':'STOP'}");
             port.Close();
             button1.Text = "Connect";
             disableControls();
@@ -356,7 +356,7 @@ namespace ComputerToArduino
         private void resetDefaults()
         {
           
-            textBox1.Text = "";
+            //textBox1.Text = "";
             
         }
 
@@ -367,7 +367,37 @@ namespace ComputerToArduino
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            textBox6.Text = String.Concat("{ 'speed':", textBox3.Text, ", 'degree':", textBox1.Text, ", 'step':", textBox2.Text, ", 'command':", "'LED1'","}");
+            double degree = float.Parse(textBox1.Text) ;
+            double step = double.Parse(textBox2.Text);
+            String temp = "";
+            if (isConnected)
+            {
+                for (double i = 0; i < degree; i+=step)
+                {
+                    temp = String.Concat("{ 'speed':", textBox3.Text, ", 'degree':", Math.Round(step * 4.44), ", 'command':", "'MOVE'", "}");
+                    label16.Text = $"{i}";
+                    port.WriteLine(temp);
+                    String s = port.ReadExisting();
+                    while (s == "")
+                    {
+                        s = port.ReadExisting();
+
+
+                        Thread.Sleep(200);
+                    }
+                    Console.WriteLine(s);
+                    needSnapshot = true;
+                }
+                //port.WriteLine(temp);
+                // { "speed":500,"degree":64,"step":10,"command":"LED1"}
+
+                
+                
+            }
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
 
         }
     }

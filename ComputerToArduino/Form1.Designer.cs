@@ -34,6 +34,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -74,7 +75,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.videoSourcePlayer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(125)))), ((int)(((byte)(125)))));
             this.videoSourcePlayer1.Location = new System.Drawing.Point(775, 12);
-            this.videoSourcePlayer1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.videoSourcePlayer1.Margin = new System.Windows.Forms.Padding(5);
             this.videoSourcePlayer1.Name = "videoSourcePlayer1";
             this.videoSourcePlayer1.Size = new System.Drawing.Size(831, 347);
             this.videoSourcePlayer1.TabIndex = 5;
@@ -117,6 +118,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label13);
@@ -146,6 +148,16 @@
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Setting";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(15, 278);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(54, 17);
+            this.label16.TabIndex = 25;
+            this.label16.Text = "label16";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // label11
             // 
@@ -315,6 +327,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(87, 22);
             this.textBox5.TabIndex = 4;
+            this.textBox5.Text = "0";
             // 
             // textBox4
             // 
@@ -323,6 +336,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(87, 22);
             this.textBox4.TabIndex = 3;
+            this.textBox4.Text = "0";
             // 
             // textBox3
             // 
@@ -331,6 +345,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(87, 22);
             this.textBox3.TabIndex = 2;
+            this.textBox3.Text = "500";
             // 
             // textBox2
             // 
@@ -339,6 +354,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(87, 22);
             this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "1";
             // 
             // textBox1
             // 
@@ -347,6 +363,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(87, 22);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "0";
             // 
             // captureImageBox
             // 
@@ -407,8 +424,8 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(401, 385);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Location = new System.Drawing.Point(775, 429);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(160, 24);
             this.comboBox2.TabIndex = 20;
@@ -477,6 +494,7 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Label label16;
     }
 }
 
