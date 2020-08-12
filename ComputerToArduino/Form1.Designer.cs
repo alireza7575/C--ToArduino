@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.videoSourcePlayer1 = new AForge.Controls.VideoSourcePlayer();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -56,32 +55,13 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.captureImageBox = new System.Windows.Forms.PictureBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.button20 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.captureImageBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // videoSourcePlayer1
-            // 
-            this.videoSourcePlayer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.videoSourcePlayer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(125)))), ((int)(((byte)(125)))));
-            this.videoSourcePlayer1.Location = new System.Drawing.Point(775, 12);
-            this.videoSourcePlayer1.Margin = new System.Windows.Forms.Padding(5);
-            this.videoSourcePlayer1.Name = "videoSourcePlayer1";
-            this.videoSourcePlayer1.Size = new System.Drawing.Size(831, 347);
-            this.videoSourcePlayer1.TabIndex = 5;
-            this.videoSourcePlayer1.Text = "videoSourcePlayer1";
-            this.videoSourcePlayer1.VideoSource = null;
-            this.videoSourcePlayer1.NewFrame += new AForge.Controls.VideoSourcePlayer.NewFrameHandler(this.videoSourcePlayer1_NewFrame_1);
             // 
             // button1
             // 
@@ -365,16 +345,6 @@
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0";
             // 
-            // captureImageBox
-            // 
-            this.captureImageBox.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.captureImageBox.Location = new System.Drawing.Point(413, 25);
-            this.captureImageBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.captureImageBox.Name = "captureImageBox";
-            this.captureImageBox.Size = new System.Drawing.Size(340, 246);
-            this.captureImageBox.TabIndex = 11;
-            this.captureImageBox.TabStop = false;
-            // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(401, 305);
@@ -399,50 +369,14 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // button20
-            // 
-            this.button20.Location = new System.Drawing.Point(900, 385);
-            this.button20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(99, 38);
-            this.button20.TabIndex = 18;
-            this.button20.Text = "tim";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(775, 385);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(99, 38);
-            this.button10.TabIndex = 19;
-            this.button10.Text = "start";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(775, 429);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(160, 24);
-            this.comboBox2.TabIndex = 20;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1375, 491);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button20);
+            this.ClientSize = new System.Drawing.Size(808, 491);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.videoSourcePlayer1);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.captureImageBox);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -452,7 +386,6 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.captureImageBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -461,7 +394,6 @@
 
         #endregion
 
-        private AForge.Controls.VideoSourcePlayer videoSourcePlayer1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -487,13 +419,9 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox captureImageBox;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ErrorProvider errorProvider1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Label label16;
     }
 }
