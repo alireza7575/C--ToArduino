@@ -105,3 +105,29 @@ C:\Users\blue\Desktop\dramir\ComputerToArduino\ComputerToArduino\obj\Debug\Compu
 C:\Users\blue\Desktop\dramir\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.csproj.CopyComplete
 C:\Users\blue\Desktop\dramir\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.exe
 C:\Users\blue\Desktop\dramir\ComputerToArduino\ComputerToArduino\obj\Debug\ComputerToArduino.pdb
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\bin\Debug\ComputerToArduino.exe.manifest
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\bin\Debug\ComputerToArduino.application
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\bin\Debug\ComputerToArduino.exe
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\bin\Debug\ComputerToArduino.pdb
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\obj\Debug\ComputerToArduino.csprojAssemblyReference.cache
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\obj\Debug\ComputerToArduino.Form1.resources
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\obj\Debug\ComputerToArduino.Properties.Resources.resources
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\obj\Debug\ComputerToArduino.csproj.GenerateResource.cache
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\obj\Debug\ComputerToArduino.exe.manifest
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\obj\Debug\ComputerToArduino.application
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\obj\Debug\ComputerToArduino.exe
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\obj\Debug\ComputerToArduino.pdb
+C:\Users\blue\Desktop\dramir\ComputerToArduino - Copy\ComputerToArduino\bin\Debug\ComputerToArduino.exe.config
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\bin\Debug\ComputerToArduino.exe.config
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\bin\Debug\ComputerToArduino.exe.manifest
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\bin\Debug\ComputerToArduino.application
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\bin\Debug\ComputerToArduino.exe
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\bin\Debug\ComputerToArduino.pdb
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\obj\Debug\ComputerToArduino.csprojAssemblyReference.cache
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\obj\Debug\ComputerToArduino.Form1.resources
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\obj\Debug\ComputerToArduino.Properties.Resources.resources
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\obj\Debug\ComputerToArduino.csproj.GenerateResource.cache
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\obj\Debug\ComputerToArduino.exe.manifest
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\obj\Debug\ComputerToArduino.application
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\obj\Debug\ComputerToArduino.exe
+C:\Users\blue\Desktop\dramir\ComputerToArduino(main)\ComputerToArduino\obj\Debug\ComputerToArduino.pdb

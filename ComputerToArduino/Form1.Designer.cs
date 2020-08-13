@@ -134,10 +134,8 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(15, 278);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(54, 17);
+            this.label16.Size = new System.Drawing.Size(0, 17);
             this.label16.TabIndex = 25;
-            this.label16.Text = "label16";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // label11
             // 
@@ -352,7 +350,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(364, 22);
             this.textBox6.TabIndex = 14;
-            this.textBox6.Text = "{\"speed\":500,\"degree\":64,\"step\":10,\"command\":\"LED1\"}";
+            this.textBox6.Text = "{\"speed\":500,\"degree\":64,\"step\":10,\"command\":\"START\"}";
             // 
             // button3
             // 
@@ -382,7 +380,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Computer to Arduino";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
